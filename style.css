@@ -1,0 +1,37 @@
+body {
+      margin:0;
+      padding:0;
+      background:#000;
+      font-family:  Ubuntu, sans-serif;
+}
+p {
+      font-size : 8px;
+      line-height : 8px;
+      text-align : justify;
+      text-justify: auto;
+      -webkit-background-size : cover;
+      background-size : cover;
+      background-repeat : no-repeat;
+      background-position : center;
+      background : url(img.jpg) no-repeat center/cover;
+      background-attachment : fixed;
+      -webkit-background-clip : text;
+      -webkit-text-fill-color : rgb(255,255,255,0);
+      
+}
+div.container{
+    color: white;
+    margin: 0;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+     }
+div.container h4 , div.container h3{
+			margin: 7px;
+}
+
